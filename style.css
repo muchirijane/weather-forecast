@@ -1,0 +1,31 @@
+/* //colors */
+:root{
+    --bg-daylight:  #F0CC49;
+    --text-color: #FFFCFC;
+    --bg-night: #2F3F5C;
+    --bg-icon: ##F8F9FA;
+    --text-color: #F8F9FA;
+    --color-white: #fff;
+    --box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
+   
+}
+
+body{
+    background: #eeedec;
+    letter-spacing: 0.2em;
+    font-size: 0.8em;
+  }
+  .container{
+    max-width: 400px;
+  }
+  
+  .icon{
+    position: relative;
+    top: -50px;
+    border-radius: 50%;
+    width: 100px;
+    margin-bottom: -50px;
+  }
+.card{
+  color: var(--text-color) !important;
+}
